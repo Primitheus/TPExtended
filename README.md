@@ -12,7 +12,7 @@ With these patches, the game runs smoother and is in a more playale and enjoyabl
 - Resize Window
 
 ### Usage
-1) Build the Debug version of the project using Visual Studio or download the precompiled .dll from the Releases.
+1) Build the .dll in 32-bit (x86) using Visual Studio or download the precompiled .dll from the Releases.
 2) Copy the compiled proxy ddraw.dll to the game folder (where tp_win32.exe is located) 
 3) (Optional) Launch the game using the ``-Width:<width> -Height:<height>`` paramaters to defined the resolution in Windowed Mode, if no resolution is defined, it's defaulted to launch at 1920x1080. For Multiclienting, launch your subsequent clients with the paramter ``-Multiclient``.
 4) Profit.
